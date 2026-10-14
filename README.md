@@ -23,20 +23,23 @@ sensor names, and live charts for all components.
 ## Installation
 
 ### Ubuntu / Zorin OS / Linux Mint
-  sudo apt install lm-sensors libxcb-cursor0 python3-pip
-  sudo sensors-detect --auto
+`sudo apt install lm-sensors libxcb-cursor0 python3-pip`
+`sudo sensors-detect --auto`
 
 ### Fedora / RHEL
-  sudo dnf install lm_sensors python3-pip
+`sudo dnf install lm_sensors python3-pip`
+
+### Create Python Virtual Environment
+`python -m venv /path/to/new/virtual/environment`
+`source /path/to/new/virtual/environment/bin/activate`
 
 ### Install Python dependencies
-  pip3 install PyQt6 pyqtgraph pynvml \
-    --break-system-packages
+`pip3 install PyQt6 pyqtgraph nvidia-ml-py`
 
 ### Clone and run
-  git clone https://github.com/Edewin/corex.git
-  cd corex
-  PYTHONPATH=. python3 corex/main.py
+`git clone https://github.com/Edewin/corex.git`
+`cd corex`
+`./run.sh`
 
 ## Author
 Eduard Soltuzu
