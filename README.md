@@ -39,7 +39,7 @@ sensor names, and live charts for all components.
 `pip3 install PyQt6 pyqtgraph nvidia-ml-py`
 
 ### Clone and run
-`git clone https://github.com/Edewin/corex.git`
+`git clone https://github.com/FortHell/corex.git`
 
 `cd corex`
 
@@ -50,10 +50,8 @@ Eduard Soltuzu
 
 ## License
 MIT
-## Screenshots
 
-### Widget over a game
-![CoreX widget over SuperTuxKart](corex/assets/screenshots/corex_widget.gif)
+## Screenshots
 
 ### Dashboard with live charts
 ![CoreX dashboard](corex/assets/screenshots/dashboard.gif)
