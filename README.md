@@ -24,6 +24,7 @@ sensor names, and live charts for all components.
 
 ### Ubuntu / Zorin OS / Linux Mint
 `sudo apt install lm-sensors libxcb-cursor0 python3-pip`
+
 `sudo sensors-detect --auto`
 
 ### Fedora / RHEL
@@ -31,6 +32,7 @@ sensor names, and live charts for all components.
 
 ### Create Python Virtual Environment
 `python -m venv /path/to/new/virtual/environment`
+
 `source /path/to/new/virtual/environment/bin/activate`
 
 ### Install Python dependencies
@@ -38,7 +40,9 @@ sensor names, and live charts for all components.
 
 ### Clone and run
 `git clone https://github.com/Edewin/corex.git`
+
 `cd corex`
+
 `./run.sh`
 
 ## Author
